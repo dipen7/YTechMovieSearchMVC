@@ -1,0 +1,18 @@
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+body {
+    
+}
+.center {
+    padding:10px;
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.backimage {
+    background-image: url(img/poster_2x.jpg);
+    background-size: cover;
+}
